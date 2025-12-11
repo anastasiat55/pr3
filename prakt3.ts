@@ -1,5 +1,5 @@
 // Практична 3 (розклад занять)
-// Посилання на файл: https://github.com/anastasiat55/pr-1-6/blob/main/prakt3.ts
+// Посилання на файл:https://github.com/anastasiat55/pr3
 
 type DayOfWeek = "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday";
 type TimeSlot = "8:30-10:00" | "10:15-11:45" | "12:15-13:45" | "14:00-15:30" | "15:45-17:15";
@@ -63,3 +63,4 @@ function cancelLesson(lessonId: number): void {
   const idx = schedule.findIndex(l => l.id === lessonId);
   if (idx !== -1) schedule.splice(idx, 1);
 }
+
